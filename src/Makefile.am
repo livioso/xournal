@@ -23,4 +23,4 @@ xournal_SOURCES = \
 
 xournal_LDADD = ttsubset/libttsubset.a @PACKAGE_LIBS@ $(INTLLIBS) -lX11 -lz
 
-xournal_LDFLAGS = -Wl,--as-needed
+xournal_LDFLAGS = -Wl,-lm,--as-needed
